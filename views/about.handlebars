@@ -1,0 +1,42 @@
+<h1 class="bg-dark text-white py-4 px-4">About This Project</h1>
+
+<h3 class="bg-dark text-white py-2 px-2">Notes <small>7.19.2018 10PM EST</small></h3>
+
+<p class="lead">
+  This is a Node / Express app for jotting down ideas for future YouTube videos. Version 1.0.0
+</p>
+
+<h5>A Little About MongoDB and Mongoose</h5>
+<p>
+  ...Up next, I'll be learning about MongoDB and Mongoose, an object data modeling type database. I'll start understanding how to interact with it by fetching, adding, updating, and deleting data.
+</p>
+<h5>Schemas</h5><span><small>A schema is a representation of a plan or theory in the form of an outline or model</small></span>
+<p>
+  So I connected Mongoose, and next I will start creating my models. I dont have to create schemas on the database level, but it's good practice to create schemas on my application level. And thats what Mongo allows us to do - create schemas on the application level.
+  So I just finished creating my first Schema, and my next step is to bring it into app.js so I can use it whenever I need to...
+</p>
+
+<h5>Database Connected!</h5>
+<p>
+  So I've done a couple more things since the previous paragraph. I did bring in the Idea Schema to my app.js file and then I went to my Windows Command Line as Administrator and cd'd out all the way then cd'd into MongoDB/bin. I successfully connected everything as the form information fields are now stored in my database...yay!
+</p>
+
+<h5>Creating The Idea Index Route</h5>
+<p>
+  After checking the database connection, I created my Idea's Index page route. Now what I'm going to do is in the Idea Index Route, <em>fetch</em> the ideas from the database and then <em>pass them in</em> to the <em>render</em> 
+</p>
+
+<h5>Fetched and Rendered The Data</h5>
+<p>
+  Alright! So I connected the database and now when I input a new idea, my app fetches the title and details information that was entered into the respective fields and displays it on my Idea's Index page...so COOL! Next, I'm going to add editing and deleting capabilities to this app, so excited...
+</p>
+
+<h5>Added The Edit Route and Edit Button</h5>
+<p>
+  Created my Edit Form Route and now I'm going to add a button to the ideas listing page which is controlled by the index.handlebars file
+</p>
+
+
+
+
+
